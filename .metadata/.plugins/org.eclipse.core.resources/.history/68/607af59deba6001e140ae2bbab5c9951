@@ -1,0 +1,25 @@
+//xpath is used when cssSelector not used 
+//xpath and cssselector work same 
+//most of time we used xpath because cssSelector not work all time
+package qsp;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Xpath {
+	static {
+		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+	}
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.navigate().to("https://www.youtube.com/");
+		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("Moye Moye");
+		driver.findElement(By.xpath("//button[@class='style-scope ytd-searchbox']")).click();
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("//a[@title='Moye Moye - #1 Trending Song - Teya Dora - Džanum (Juzni Vetar - Na Granici)']")).click();
+		driver.findElement(By.xpath("//button[@title='Full screen (f)']")).click();
+	
+	}
+}
