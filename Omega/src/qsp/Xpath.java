@@ -25,8 +25,8 @@ public class Xpath {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//button[@title='Full screen (f)']")).click();
 		//->//button->tagName //@title->Attribute Name // Full screen (f)-> attribute Value
-		Thread.sleep(3000);
-		driver.close();
+//		Thread.sleep(3000);
+//		driver.close();
 	
 	}
 }

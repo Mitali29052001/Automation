@@ -1,0 +1,7 @@
+//syntax: (//tagname[@A.N='A.V'])[Index No]
+      //    (//h3[@class='product-brand'])[13])
+package qsp;
+
+public class XpathByIndexing {
+
+}
