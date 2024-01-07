@@ -1,5 +1,7 @@
 //Xpath by text is used when only text is present 
+
 //Syntax for Xpath by text is-> //tagname[text()='text']
+                                //tagneme[.='text']
 package qsp;
 
 import org.openqa.selenium.By;

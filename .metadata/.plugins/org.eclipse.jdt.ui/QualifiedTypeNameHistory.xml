@@ -3,10 +3,11 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.grid.Main"/>
     <fullyQualifiedTypeName name="zmq.io.net.pgm.PgmSender"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By.ById"/>
+    <fullyQualifiedTypeName name="qsp.getRect"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="qsp.webpage"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="qsp.getRect"/>
 </qualifiedTypeNameHistroy>
