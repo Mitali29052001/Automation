@@ -4,10 +4,11 @@
     <fullyQualifiedTypeName name="zmq.io.net.pgm.PgmSender"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By.ById"/>
     <fullyQualifiedTypeName name="qsp.getRect"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="qsp.webpage"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>

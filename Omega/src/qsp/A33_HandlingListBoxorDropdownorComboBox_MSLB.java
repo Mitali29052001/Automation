@@ -8,6 +8,7 @@
 //5)getFirstSelectedOption();->when we want to know which element we select first for that we use getFirstSelectedOption() method.
 //6)getAllSelectedOption;->use to get all selected option by using getText() method.
 //7)getOptions();->when we want to all the options without selecting we use getOptions() method.
+//8)getWrappedElement():- use to wrapped all element which are present in options.
 
 package qsp;
 

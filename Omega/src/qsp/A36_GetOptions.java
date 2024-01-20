@@ -1,6 +1,5 @@
 //7)getOptions();->when we want to all the options without selecting we use getOptions() method.
 package qsp;
-
 import java.util.List;
 
 import org.openqa.selenium.By;
