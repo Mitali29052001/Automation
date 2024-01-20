@@ -1,3 +1,4 @@
+//use to check for radio button or check box is selected or not
 package qsp;
 
 import org.openqa.selenium.By;
