@@ -5,16 +5,20 @@
 //point to remember
 //1)dropdown element should start with select tagname
 //2)options of dropdown element should start with option
-//The return type of findelement is web element
+//The return type of findelement(Single Element) is web element.
+//The return type of findelements (Multiple Element) is List<WebElement>//if we want to store more than one element then we use findelements.
 //o-selenium.-supportpacakge-qapacakge-select coming from
 //Non-Static Method:- Select S = new Select(element);
 //Select->Class S->Reference Variable new->keyword Select->Constructor (elements)-> select constructor will take address of elements.
 //S.SelectByindex(0)
+//S.DeSelectByindex(0)
 //S->Reference Variable SelectByindex()->method
 //S.SelectByValue()
+//S.DeSelectByValue()
 //We use this SelectByValue because sometimes if their more option in dropdown so it is difficult to find the index of perticular option so that time we will go for SelectByValue in that we take the attribute value of attribute name value.
 //S->Reference Variable SelectByValue()->method
 //S.SelectByVisibleText()
+//S.DeSelectByVisibleText()
 //We use this SelectByVisibleText because same as selectbyvalue for using SelectByVisibleText we take text
 //S->Reference Variable SelectByVisibleText()->method
 package qsp;
