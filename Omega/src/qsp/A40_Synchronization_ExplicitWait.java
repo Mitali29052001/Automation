@@ -2,7 +2,14 @@
 //we use explicit wait to overcome the drawbacks of implicit wait which is only work for findelement and findelements.
 //In explicit wait we have to write explicit wait above of every script if we want to give wait time for respective script.
 //because explicit wait is only work for only one script where in implicit we write implicit wait for all the script once after launching or maximizing browser.
-//
+//syntax:1) webdriverwait wait = new webdriverwait(driver, Duration ofSeconds());
+//webdriver->object, wait->Reference Variable, new->keyword, webdriverwait()->constructor
+//webdriverwait() constructor contain driver(reference variable) from open browser statement, Duration ofSeconds()->java class coming from java.time package
+//2)wait.until(ExpectedConditions.titleContains()) OR wait.until(ExpectedConditions.titleis())
+//wait-> Reference Variable, until()->Non-Static Method, ExpectedConditions->class, titleContains() OR titleis()->Methods
+//We create webdriverwait (object) to call non static method for that we use wait as (reference variable) using that wait(reference variable) we call until(non static method) with the help of (.).
+//until(non static method) contains Expected conditions, titleContains OR titleIs.
+//In titleContain() we have to write partial text of title and In titleis() we have to write full text of title.
 package qsp;
 
 import java.time.Duration;
