@@ -26,12 +26,16 @@ public class A33_HandlingListBoxorDropdownorComboBox_MSLB {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://demoapps.qspiders.com/?scenario=1");
+		driver.findElement(By.xpath("(//div[.='Explore more'])[1]")).click();
+		Thread.sleep(5000);
 		driver.findElement(By.xpath("//section[text()='Dropdown']")).click();
+		Thread.sleep(5000);
 		driver.findElement(By.linkText("Multi Select")).click();
+		Thread.sleep(2000);
 		WebElement country = driver.findElement(By.id("select-multiple-native"));
 		Select s = new Select(country);
 		Thread.sleep(2000);
-		s.selectByIndex(4);
+		s.selectByIndex(3);
 		Thread.sleep(2000);
 		s.selectByVisibleText("Canada");
 		Thread.sleep(2000);

@@ -32,7 +32,7 @@ public class A35_GetAllSelectedOptions {
 		Thread.sleep(2000);
 		List<WebElement> option = s.getAllSelectedOptions();
 		int count = option.size();
-		System.err.println(count);
+		System.out.println(count);
 		for(int i=0; i<count; i++) {//we use for loop where i=0 and i should i<count and i++
 			 String text = option.get(i).getText(); //we start take address of first index of for loop using get method and gettext of that address and store that address in title variable
 			 System.out.println(text); //we print that title variable in which we store address of total webelements.

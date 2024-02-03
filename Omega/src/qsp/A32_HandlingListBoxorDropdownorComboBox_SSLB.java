@@ -37,7 +37,10 @@ public class A32_HandlingListBoxorDropdownorComboBox_SSLB {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://demoapps.qspiders.com/?scenario=1");
+		driver.findElement(By.xpath("(//div[.='Explore more'])[1]")).click();
+		Thread.sleep(5000);
 		driver.findElement(By.xpath("//section[text()='Dropdown']")).click();
+		Thread.sleep(5000);
 		WebElement element = driver.findElement(By.xpath("//select[@id='select3']"));
 		//It will store address of dropdown element in element variable for that we need not to write getmethod thats why the type of variable name will be webelement if we take any get method then type of variable will string
 		Select S = new Select(element);
@@ -45,13 +48,13 @@ public class A32_HandlingListBoxorDropdownorComboBox_SSLB {
 		S.selectByIndex(7);
 		Thread.sleep(5000);
 //		driver.close();
-		driver.findElement(By.xpath("//section[text()='Dropdown']")).click();
+//		driver.findElement(By.xpath("//section[text()='Dropdown']")).click();
 		WebElement element2 = driver.findElement(By.xpath("//select[@id='select5']"));
 		//It will store address of dropdown element in element variable for that we need not to write getmethod thats why the type of variable name will be webelement if we take any get method then type of variable will string
 		Select S1 = new Select(element2);
 		Thread.sleep(5000);
 		S1.selectByValue("Maharashtra");
-		driver.findElement(By.xpath("//section[text()='Dropdown']")).click();
+//		driver.findElement(By.xpath("//section[text()='Dropdown']")).click();
 		WebElement element1 = driver.findElement(By.xpath("(//select[@class='border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150'])[4]"));
 		//It will store address of dropdown element in element variable for that we need not to write getmethod thats why the type of variable name will be webelement if we take any get method then type of variable will string
 		Select S2 = new Select(element1);

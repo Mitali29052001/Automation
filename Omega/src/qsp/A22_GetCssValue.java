@@ -12,7 +12,7 @@ public class A22_GetCssValue {
 		WebDriver d=new ChromeDriver();
 		d.get("https://www.facebook.com/");
 		d.manage().window().maximize();
-		String text = d.findElement(By.xpath("//img[@alt='Facebook']")).getCssValue("font-family");
+		String text = d.findElement(By.xpath("//img[@alt='Facebook']")).getCssValue("font-weight");
 		Thread.sleep(4000);
 		System.out.println(text);
 		d.close();

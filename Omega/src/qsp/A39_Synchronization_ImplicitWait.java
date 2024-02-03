@@ -28,7 +28,7 @@ public class A39_Synchronization_ImplicitWait {
 		driver.findElement(By.id("username")).sendKeys("mitalikadam42@gmail.com");
 		driver.findElement(By.name("pwd")).sendKeys("BbXTns9b");
 		driver.findElement(By.xpath("//div[.='Login ']")).click();
-		Thread.sleep(3000);
+//		Thread.sleep(3000);
 		driver.findElement(By.id("logoutLink")).click();
 		driver.close();
 }
