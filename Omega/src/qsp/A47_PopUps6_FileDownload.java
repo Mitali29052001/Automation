@@ -5,6 +5,11 @@
 //If we use A-Z, special character(!,@,#), 0-9 then we do only keypress
 //2)keyRelease
 //If we want to use presskey capslock,alt,numlock,window then we do keyRelease
+//characteristics
+//1)It is movable
+//2)It is not inspectable
+//3)This popup will be having open and cancel button
+//4)The title of this popups is always save 
 //Runtime.getRuntime().exec("Notepad");
 //Runtime->java class which is coming from lang package, getRuntime()->Static Method, exec("Notepad")->Execution method which accept one parameter, Notepad->parameter which we want to open application
 //To call this non static method we have to create object
