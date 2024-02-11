@@ -2,7 +2,7 @@
 //Testing the application with multiple set of data which is kept in external resource file like property file, excel file is called data driven testing.
 //Data:
 //There are two types:
-//1)Common data: the data which is common for all the test cases/test script.(We create 
+//1)Common data: the data which is common for all the test cases/test script.
 //2)Test Data: The data which specific for one test case.
 //1)Common Data: common data should be in key-value pair. and Key-value pair should divided by space.(browser chrome, username mitali)
 //IQ: How to read the data from your property file
@@ -13,12 +13,12 @@
 //to load the commonproperty file we use load (non static) method
 //to call this non static method we create one object:
 //2)properties p = new Properties();
-//properties->java class coming from util class. p->R.V. new->keyword, properties()-constructor
+//properties->java class coming from util class. p->R.V. new->keyword, properties()->constructor
 //3)p.load(file)
 //p->R.V load->Non-static method which helps to load data from file(R.V)
 //4)String data = p.getproperty("username")
 //to print username in console we use getproperty("username") (non static) method
-//p->R.V, getproperty("username")->Non static method which accept one parameter as string key. "username"->string path(it is string path so we write in double quotes)
+//p->R.V, getproperty("username")->Non static method which accept one parameter as string key. "username"->string key(it is string key so we write in double quotes).
 
 package data_driven_testing;
 

@@ -1,5 +1,5 @@
 //If we want to update data
-//1)setcellvalue()->It is used when we want to update the data 
+//1)setcellvalue()->It is used when we want to update the data in excel file. 
 //wb.getsheet("sd").getRow(2).getcell(3).setcellvalue('student');
 //2)Fileoutputstream file = new Fileoutputstream("./Testdata/TestData.xlsx.xls")
 //Fileoutputstream-> java class coming from io package which is used to show output, file->R.V in which we store all string path data 
