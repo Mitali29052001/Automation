@@ -20,7 +20,7 @@ public class A03_DDT_CD_UpdateData_Setcellvalue {
 	public static void main(String[] args) throws IOException {
 		FileInputStream file = new FileInputStream("./Testdata/TestData.xlsx");
 		Workbook wb = WorkbookFactory.create(file);
-		wb.getSheet("SD").getRow(2).getCell(2).setCellValue("Commerce");
+		wb.getSheet("SD").getRow(2).getCell(2).setCellValue("Student");
 		FileOutputStream file1 = new FileOutputStream("./Testdata/TestData.xlsx");
 		wb.write(file1);
 	}
