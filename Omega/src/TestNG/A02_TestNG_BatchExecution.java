@@ -15,7 +15,7 @@ public class A02_TestNG_BatchExecution {
 	@Test(invocationCount = 3, priority=3)	
 	public void getCustomer() {
 		Assert.fail();
-		//If we want to intentionally failed one test script then there is one class coming from org.TestNG that we have to use i.e Asser.fail().
+		//If we want to intentionally failed one test script then there is one class coming from org.TestNG that we have to use i.e Assert.fail().
 		Reporter.log("Customer created", true);
 	}
 	@Test(priority=1)

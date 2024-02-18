@@ -20,7 +20,7 @@ import org.testng.annotations.BeforeTest;
 
 
 public class A04_TestNG_BaseClass {
-	WebDriver driver;
+public static	WebDriver driver;
 //While launching browser we create R.V driver but if we try to use this R.V(driver) we not able to use because we create multiple method in one class so this R.V(driver) become Local Variable thats why we not able to use this
 //because of this we make this R.V(driver) as global variable by declaring outside the method or block and inside class.
 	@BeforeSuite 

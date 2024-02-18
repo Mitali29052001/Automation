@@ -1,3 +1,4 @@
+//Note: extend should written after class not after interface.
 package TestNG;
 
 import org.testng.Reporter;

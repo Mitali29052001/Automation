@@ -3,11 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.A06_TakeScreenShotAs">
+      <class name="TestNG.A08_TestNG_Listeners_Utilisation">
         <methods>
-          <include name="getSs"/>
+          <include name="getScreenshot"/>
+          <include name="DisconnectDB"/>
+          <include name="login"/>
+          <include name="databaseConnection"/>
+          <include name="browserLaunched"/>
+          <include name="getScreenshot1"/>
+          <include name="CloseBrowser"/>
+          <include name="logout"/>
         </methods>
-      </class> <!-- TestNG.A06_TakeScreenShotAs -->
+      </class> <!-- TestNG.A08_TestNG_Listeners_Utilisation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
