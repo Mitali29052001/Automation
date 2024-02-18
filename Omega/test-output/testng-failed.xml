@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.A02_TestNG_BatchExecution">
+      <class name="TestNG.A06_TakeScreenShotAs">
         <methods>
-          <include name="Employee"/>
+          <include name="getSs"/>
         </methods>
-      </class> <!-- TestNG.A02_TestNG_BatchExecution -->
+      </class> <!-- TestNG.A06_TakeScreenShotAs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

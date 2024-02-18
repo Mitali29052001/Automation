@@ -5,7 +5,7 @@
 //Fileoutputstream-> java class coming from io package which is used to show output, file->R.V in which we store all string path data 
 //new -> keyword, Fileoutputstream()->Constructor which accept one parameter as string path.
 //3)wb.write(file)
-//wb->R.V, write()->Its a method which is used to replace the old data with new data
+//wb->R.V, write()->Its a static method which is used to replace the old data with new data
 package data_driven_testing;
 
 import java.io.FileInputStream;
