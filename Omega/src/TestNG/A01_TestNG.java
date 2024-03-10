@@ -1,4 +1,4 @@
-//Priority: We can give priority to test script for execution in order whichever we want
+//Priority: We can give priority to test script for execution perform in order whichever we want
 //If we want to skip one script to execute then we use the concept of enable=false.
 package TestNG;
 

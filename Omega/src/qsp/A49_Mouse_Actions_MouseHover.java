@@ -26,7 +26,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class A49_Mouse_Actions_MouseHover {
 	static {
-		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+		System.setProperty("webdriver.driver.chrome", "./driver/chromedriver.exe");
 	}
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();

@@ -1,5 +1,5 @@
 //Custom Wait:
-//In order to synchronise the automation script by using custom wait we have to write our java script.
+//In order to synchronise the automation script by using custom wait we have to write our java code.
 //syntax:- 
 //int i = 0;
 //while(i<500){

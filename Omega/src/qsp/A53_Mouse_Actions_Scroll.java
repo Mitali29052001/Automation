@@ -8,7 +8,7 @@
 //so we use typecasting because it goes to right side.
 //How we do scrolling manually
 //in console we type window.scrollBy(x-axis,y-axis)
-//because all the webpage is made up of picxel so that if we do window.scrollBy(0,2000) so it is scroll 2000 pixel from y-axis.
+//because all the webpage is made up of pixel so that if we do window.scrollBy(0,2000) so it is scroll 2000 pixel from y-axis.
 //How to do using Automation
 //Syntax:
 //JavaScriptExecution j = (javaScriptExecution)driver;
@@ -27,7 +27,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class A53_Mouse_Actions_Scroll {
 	static {
-		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+		System.setProperty("webdriver.driver.chrome", "./driver/chromedriver.exe");
 	}
 	public static void main(String[] args) throws InterruptedException {
 //		WebDriver driver =  new ChromeDriver();

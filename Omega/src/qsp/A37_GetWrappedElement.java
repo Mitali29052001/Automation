@@ -1,4 +1,4 @@
-//getWrappedElement():- use to wrapped all element which are present in options.
+//getWrappedElement():- without using for loop we use to wrapped all element which are present in options.
 package qsp;
 import java.util.List;
 

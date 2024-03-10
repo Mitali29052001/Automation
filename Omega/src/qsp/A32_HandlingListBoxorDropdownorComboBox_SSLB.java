@@ -10,14 +10,14 @@
 //o-selenium.-supportpacakge-qapacakge-select coming from
 //Non-Static Method:- Select S = new Select(element);
 //Select->Class S->Reference Variable new->keyword Select->Constructor (elements)-> select constructor will take address of elements.
-//S.SelectByindex(0)
+//1)S.SelectByindex(0)
 //S.DeSelectByindex(0)
 //S->Reference Variable SelectByindex()->method
-//S.SelectByValue()
+//2)S.SelectByValue()
 //S.DeSelectByValue()
 //We use this SelectByValue because sometimes if their more option in dropdown so it is difficult to find the index of perticular option so that time we will go for SelectByValue in that we take the attribute value of attribute name value.
 //S->Reference Variable SelectByValue()->method
-//S.SelectByVisibleText()
+//3)S.SelectByVisibleText()
 //S.DeSelectByVisibleText()
 //We use this SelectByVisibleText because same as selectbyvalue for using SelectByVisibleText we take text
 //S->Reference Variable SelectByVisibleText()->method
